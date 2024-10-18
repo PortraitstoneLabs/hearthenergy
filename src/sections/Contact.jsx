@@ -28,7 +28,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'Hearth Energy',
           from_email: form.email,
-          to_email: 'energyhearth@gmail.com',
+          to_email: 'contact@hearthenergy.org',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
