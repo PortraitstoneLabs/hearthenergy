@@ -5,6 +5,7 @@ twitter,
 linkedin,
 tiktok,
 github,
+substack,
 } from "../assets";
 
 export const navLinks = [
@@ -33,11 +34,15 @@ export const navLinks = [
 
   export const socialMedia = [
     {
-      id: "social-media-6",
+      id: "social-media-1",
       icon: github,
       link: "https://github.com/PortraitstoneLabs/hearthenergy",
     },
-  
+    {
+      id: "social-media-2",
+      icon: substack,
+      link: "https://substack.com/@hearthenergy",
+    },
   ];
 
   export const sizes = [

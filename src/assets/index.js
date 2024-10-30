@@ -4,6 +4,7 @@
    import instagram from "./instagram.svg";
    import linkedin from "./linkedin.svg";
    import tiktok from "./tiktok.svg";
+   import substack from "./substack.svg";
 
 
    export {
@@ -13,4 +14,5 @@
    linkedin,
    tiktok,
   github,
+  substack,
 };
