@@ -43,6 +43,11 @@ export const navLinks = [
       icon: substack,
       link: "https://substack.com/@hearthenergy",
     },
+    {
+      id: "social-media-3",
+      icon: linkedin,
+      link: 'https://www.linkedin.com/in/khristophe-keen-46270394/',
+  },
   ];
 
   export const sizes = [
