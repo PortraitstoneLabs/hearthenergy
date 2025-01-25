@@ -5,6 +5,7 @@
    import linkedin from "./linkedin.svg";
    import tiktok from "./tiktok.svg";
    import substack from "./substack.svg";
+   import stripe from "./stripe.svg";
 
 
    export {
@@ -15,4 +16,5 @@
    tiktok,
   github,
   substack,
+  stripe,
 };

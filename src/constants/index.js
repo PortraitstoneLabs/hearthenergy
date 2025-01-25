@@ -6,6 +6,7 @@ linkedin,
 tiktok,
 github,
 substack,
+stripe,
 } from "../assets";
 
 export const navLinks = [
@@ -35,16 +36,21 @@ export const navLinks = [
   export const socialMedia = [
     {
       id: "social-media-1",
+      icon: stripe,
+      link: 'https://buy.stripe.com/test_dR6aIk2VK1hObccbII',
+  },
+    {
+      id: "social-media-2",
       icon: github,
       link: "https://github.com/PortraitstoneLabs/hearthenergy",
     },
     {
-      id: "social-media-2",
+      id: "social-media-3",
       icon: substack,
       link: "https://substack.com/@hearthenergy",
     },
     {
-      id: "social-media-3",
+      id: "social-media-4",
       icon: linkedin,
       link: 'https://www.linkedin.com/in/khristophe-keen-46270394/',
   },
@@ -54,3 +60,5 @@ export const navLinks = [
     { label: '6.1"', value: "small" },
     { label: '6.7"', value: "large" },
   ];
+
+  
