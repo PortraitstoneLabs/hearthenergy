@@ -37,7 +37,7 @@ export const navLinks = [
     {
       id: "social-media-1",
       icon: stripe,
-      link: 'https://buy.stripe.com/test_dR6aIk2VK1hObccbII',
+      link: 'https://buy.stripe.com/eVa5mNaN7aFNcRG6op',
   },
     {
       id: "social-media-2",
