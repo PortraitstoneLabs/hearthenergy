@@ -15,6 +15,8 @@ import SunrunLogo from '../components/SunrunLogo.jsx';
 import DemandLogo from '../components/DemandLogo.jsx';
 import SolarMaxLogo from '../components/SolarMaxLogo.jsx';
 import { Hearth } from '../components/Hearth.jsx';
+import ESPLogo from '../components/ESPLogo.jsx';
+import DCLogo from '../components/DCLogo.jsx';
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -40,14 +42,13 @@ const Hero = () => {
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
             <HeroCamera isMobile={isMobile}>
-            {/* <Merkabah scale={sizes.merkabahScale} position={sizes.merkabaPosition} rotation={[0.1, -Math.PI, 0]} /> */}
               <Hearth scale={sizes.hearthScale} position={sizes.hearthPosition} rotation={[0.1, -Math.PI, 0]} />
             </HeroCamera>
 
             <group>
               <SolarMaxLogo position={sizes.solarMaxLogoPosition} />
-              <DemandLogo position={sizes.demandLogoPosition} />
-              <TeslaLogo position={sizes.teslaLogoPosition} />
+              <DCLogo position={sizes.dcLogoPosition} />
+              <ESPLogo position={sizes.espLogoPosition} />
               <SunrunLogo position={sizes.sunrunLogoPosition} />
             </group>
 
