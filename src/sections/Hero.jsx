@@ -14,6 +14,7 @@ import TeslaLogo from '../components/TeslaLogo.jsx';
 import SunrunLogo from '../components/SunrunLogo.jsx';
 import DemandLogo from '../components/DemandLogo.jsx';
 import SolarMaxLogo from '../components/SolarMaxLogo.jsx';
+import { Hearth } from '../components/Hearth.jsx';
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -38,9 +39,9 @@ const Hero = () => {
             {/* To hide controller */}
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-
             <HeroCamera isMobile={isMobile}>
-              <Merkabah scale={sizes.merkabahScale} position={sizes.merkabaPosition} rotation={[0.1, -Math.PI, 0]} />
+            {/* <Merkabah scale={sizes.merkabahScale} position={sizes.merkabaPosition} rotation={[0.1, -Math.PI, 0]} /> */}
+              <Hearth scale={sizes.hearthScale} position={sizes.hearthPosition} rotation={[0.1, -Math.PI, 0]} />
             </HeroCamera>
 
             <group>

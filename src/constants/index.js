@@ -24,7 +24,8 @@ export const navLinks = [
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
-      merkabahScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+      // merkabahScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+      hearthScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
       demandLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
       teslaLogoPosition: isSmall ? [-3, 4, 0] : isMobile ? [-5, 4, 0] : isTablet ? [-5, 4, 0] : [-10, 1, 0],
       solarMaxLogoPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
