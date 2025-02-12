@@ -105,7 +105,7 @@ const Contact = () => {
             </label>
 
             <label className="space-y-3">
-              <span className="field-label">Your message</span>
+              <span className="field-label">Your number</span>
               <textarea
                 name="message"
                 value={form.message}
@@ -113,7 +113,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="Call or TEXT 818.821.9073..."
               />
             </label>
 
