@@ -30,9 +30,9 @@ const Hero = () => {
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-black text-center font-Roboto">
-          Welcome to Hearth Energy <span className="spinning-hand">♻️</span>
+          Imagine Without Thinking<span className="spinning-hand">♻️</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Auditing the Solar Industry</p>
+        <p className="hero_tag text-gray_gradient">Light Is Imagination</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
