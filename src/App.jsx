@@ -2,6 +2,7 @@ import Hero from './sections/Hero.jsx';
 import Footer from './sections/Footer.jsx';
 import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
+import YouTubeVideo from './sections/YouTubeVideo.jsx';
 
 //https://gltf.pmnd.rs/
 
@@ -10,6 +11,7 @@ const App = () => {
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
       <Hero />
+      <YouTubeVideo />
       <Contact />
       <Footer />
     </main>
