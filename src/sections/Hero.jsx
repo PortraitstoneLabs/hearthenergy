@@ -49,7 +49,7 @@ const Hero = () => {
               <SolarMaxLogo position={sizes.solarMaxLogoPosition} />
               <DCLogo position={sizes.dcLogoPosition} />
               <ESPLogo position={sizes.espLogoPosition} />
-              <SunrunLogo position={sizes.sunrunLogoPosition} />
+              {/* <SunrunLogo position={sizes.sunrunLogoPosition} /> */}
             </group>
 
             <ambientLight intensity={1} />
