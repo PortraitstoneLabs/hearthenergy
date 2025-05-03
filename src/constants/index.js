@@ -52,7 +52,7 @@ export const navLinks = [
     {
       id: "social-media-4",
       icon: linkedin,
-      link: 'https://www.linkedin.com/in/khristophe-keen-46270394/',
+      link: 'https://www.linkedin.com/company/hearth-energy/',
   },
   ];
 
