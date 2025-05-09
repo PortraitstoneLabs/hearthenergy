@@ -11,7 +11,7 @@ import HeroCamera from '../components/HeroCamera.jsx';
 import { calculateSizes } from '../constants/index.js';
 import { Merkabah } from '../components/Merkabah.jsx';
 import TeslaLogo from '../components/TeslaLogo.jsx';
-import SunrunLogo from '../components/SunrunLogo.jsx';
+import SolarTechLogo from '../components/SolarTechLogo.jsx';
 import DemandLogo from '../components/DemandLogo.jsx';
 import SolarMaxLogo from '../components/SolarMaxLogo.jsx';
 import { Hearth } from '../components/Hearth.jsx';
@@ -49,7 +49,7 @@ const Hero = () => {
               <SolarMaxLogo position={sizes.solarMaxLogoPosition} />
               <DCLogo position={sizes.dcLogoPosition} />
               <ESPLogo position={sizes.espLogoPosition} />
-              {/* <SunrunLogo position={sizes.sunrunLogoPosition} /> */}
+              <SolarTechLogo position={sizes.solartechLogoPosition} />
             </group>
 
             <ambientLight intensity={1} />

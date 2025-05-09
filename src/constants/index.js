@@ -28,7 +28,7 @@ export const navLinks = [
       dcLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
       espLogoPosition: isSmall ? [-3, 4, 0] : isMobile ? [-5, 4, 0] : isTablet ? [-5, 4, 0] : [-10, 1, 0],
       solarMaxLogoPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-      sunrunLogoPosition: isSmall ? [4, -5, -20] : isMobile ? [7, -5, -25] : isTablet ? [8, -5, -15] : [8, -5, -15],
+      solartechLogoPosition: isSmall ? [4, -5, -20] : isMobile ? [7, -5, -25] : isTablet ? [8, -5, -15] : [8, -5, -15],
     };
   };
 
